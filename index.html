@@ -26,21 +26,23 @@
 </head>
 
 <body>
-<header>
-    <nav>
-        <div class="left">Ranit's Portfolio</div>
-        <div class="right">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </ul>
-        </div>
-    </nav>
-</header>
+<!-- navbar -->
+<nav>
+    <div class="left">Ranit's Portfolio</div>
+    <div class="right">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- main -->
 <main>
+    <!-- home -->
     <section id="home" class="first-Section">
         <div class="leftSection">Hi, My name is <span class="purple">Ranit</span>
 
@@ -48,7 +50,8 @@
             <span id="element"></span>
             <div class="buttons">
                 <button class="btn">
-                    <a target="_blank" class="btn-link" href="https://www.africau.edu/images/default/sample.pdf">Download
+                    <a target="_blank" class="btn-link"
+                       href="https://drive.google.com/file/d/12bfPFzBJz6djXzyrMdWfo4bqAUj_K2Q0/view?usp=sharing">Download
                         Resume</a>
                 </button>
                 <button class="btn">
@@ -58,9 +61,9 @@
         </div>
         <div class="rightSection"><img src="Assets/Images/profile_pic.jpg" alt=""></div>
     </section>
-
     <hr>
 
+    <!-- about -->
     <section class="second-Section" id="about">
         <span class="text-gray">who am i?</span>
         <h1>About me</h1>
@@ -83,9 +86,9 @@
             </p>
         </div>
     </section>
-
     <hr>
 
+    <!-- skills -->
     <section class="third-Section" id="skills">
         <span class="text-gray">what are my specialties?</span>
         <h1>my Skills</h1>
@@ -93,19 +96,36 @@
 
         </div>
     </section>
-
     <hr>
 
+    <!-- projects -->
     <section class="forth-Section" id="projects">
         <span class="text-gray">what projects i have done so far?</span>
         <h1>my Projects</h1>
         <div class="forth-container">
-
+            <a href="" class="projects_img">
+                <img src="Assets/Images/project_1.png" alt="">
+            </a>
+            <a href="" class="projects_img">
+                <img src="Assets/Images/project_2.png" alt="">
+            </a>
+            <a href="" class="projects_img">
+                <img src="Assets/Images/project_3.png" alt="">
+            </a>
+            <a href="" class="projects_img">
+                <img src="Assets/Images/project_4.png" alt="">
+            </a>
+            <a href="" class="projects_img">
+                <img src="Assets/Images/project_5.png" alt="">
+            </a>
+            <a href="" class="projects_img">
+                <img src="Assets/Images/project_6.png" alt="">
+            </a>
         </div>
     </section>
-
     <hr>
 
+    <!-- contact -->
     <section class="fifth-Section" id="contact">
         <span class="text-gray">contact me to know more</span>
         <h1>Contact me</h1>
@@ -113,10 +133,9 @@
 
         </div>
     </section>
-
-    <hr>
-
 </main>
+
+<!-- footer -->
 <footer class="footer-distributed">
     <div class="footer-left">
         <h3>Ranit<span>Manik</span></h3>
@@ -149,22 +168,24 @@
             Studying Computer Science. Passionate Developer, Creative Designer - Crafting Digital Excellence
         </p>
         <div class="footer-icons">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-github"></i></a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100094296491449"><i
+                    class="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://twitter.com/RANIT_MANIK"><i class="fa fa-twitter"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/ranit-manik/"><i class="fa fa-linkedin"></i></a>
+            <a target="_blank" href="https://github.com/RanitManik"><i class="fa fa-github"></i></a>
         </div>
     </div>
 </footer>
+
+<!-- scripts -->
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 <!-- Setup and start animation! -->
 <script>
     var typed = new Typed('#element', {
-        strings: ['Video Editor', 'Graphic Designer', "Web Designer", "Web Developer"],
+        strings: ['Graphic Designer', "Web Designer", "Web Developer"],
         typeSpeed: 50,
         loop: true,
     });
 </script>
 </body>
-
 </html>
