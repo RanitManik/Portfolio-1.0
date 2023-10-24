@@ -1,0 +1,21 @@
+.fifth-Section {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.fifth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth-Section h1 {
+    font-size: 2rem;
+}
+
+.fifth-container img {
+    width: 650px;
+}
+
+

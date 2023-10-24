@@ -1,0 +1,19 @@
+.second-Section {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.second-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-Section h1 {
+    font-size: 2rem;
+}
+
+.second-container img {
+    width: 650px;
+}

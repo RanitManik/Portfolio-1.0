@@ -1,0 +1,21 @@
+.forth-Section {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.forth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forth-Section h1 {
+    font-size: 2rem;
+}
+
+.forth-container img {
+    width: 650px;
+}
+
+

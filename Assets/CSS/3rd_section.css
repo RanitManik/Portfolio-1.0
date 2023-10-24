@@ -1,0 +1,21 @@
+.third-Section {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.third-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-Section h1 {
+    font-size: 2rem;
+}
+
+.third-container img {
+    width: 650px;
+}
+
+

@@ -1,0 +1,62 @@
+.left {
+    font-size: 1.5rem;
+}
+
+.first-Section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 125px 0 45px;
+}
+
+.first-Section > div {
+    width: 30%;
+}
+
+.leftSection {
+    width: 34px;
+    font-size: 2.5rem;
+}
+
+.leftSection .buttons {
+    padding: 15px 0;
+}
+
+.leftSection .btn {
+    padding: 12px;
+    background-color: #1e2167;
+    color: white;
+    border: 1px solid rgba(157, 157, 157, 0.4);
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.leftSection .btn:hover {
+    background-color: #5053ab;
+    border: 1px solid white;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: white;
+}
+
+.rightSection img {
+    width: 80%;
+    margin: 50px;
+    border-radius: 50%;
+}
+
+.purple {
+    color: rgb(173, 38, 173);
+}
+
+.text-gray {
+    color: grey;
+}
+
+#element {
+    color: rgb(173, 38, 173);
+}

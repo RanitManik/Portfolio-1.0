@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title and favicon -->
+    <title>Ranit's Developer Portfolio </title>
+    <link rel="shortcut icon" href="Assets/Images/favicon.png" type="image/x-icon">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="Assets/CSS/general.css">
+    <link rel="stylesheet" href="Assets/CSS/scrollbar.css">
+    <link rel="stylesheet" href="Assets/CSS/header.css">
+    <link rel="stylesheet" href="Assets/CSS/1st_section.css">
+    <link rel="stylesheet" href="Assets/CSS/2nd_section.css">
+    <link rel="stylesheet" href="Assets/CSS/3rd_section.css">
+    <link rel="stylesheet" href="Assets/CSS/4th_section.css">
+    <link rel="stylesheet" href="Assets/CSS/5th_section.css">
+    <link rel="stylesheet" href="Assets/CSS/footer.css">
+</head>
+
+<body>
+<header>
+    <nav>
+        <div class="left">Ranit's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <section id="home" class="first-Section">
+        <div class="leftSection">Hi, My name is <span class="purple">Ranit</span>
+
+            <div>and i am passionate</div>
+            <span id="element"></span>
+            <div class="buttons">
+                <button class="btn">
+                    <a target="_blank" class="btn-link" href="https://www.africau.edu/images/default/sample.pdf">Download
+                        Resume</a>
+                </button>
+                <button class="btn">
+                    <a target="_blank" class="btn-link" href="https://github.com/RanitManik">Visit GitHub</a>
+                </button>
+            </div>
+        </div>
+        <div class="rightSection"><img src="Assets/Images/profile_pic.jpg" alt=""></div>
+    </section>
+
+    <hr>
+
+    <section class="second-Section" id="about">
+        <span class="text-gray">who am i?</span>
+        <h1>About me</h1>
+        <div class="second-container">
+            <img src="Assets/Images/developer_graphics.png" alt="">
+            <p>
+                Greetings! I'm Ranit Manik, a passionate web developer with a knack for crafting dynamic and interactive
+                online experiences. Armed with a solid foundation in HTML, CSS, and JavaScript, I excel at transforming
+                concepts into functional, user-friendly websites.
+                <br>
+                <br>
+                My journey in web development commenced during my first year in college, and since then, I've been
+                fortunate to contribute to a diverse range of projects. From designing responsive layouts to fine-tuning
+                performance, I'm dedicated to delivering solutions that consistently surpass expectations.
+                <br>
+                <br>
+                In addition to front-end development, I'm well-versed in back-end technologies such as Node.js and
+                Python. This proficiency enables me to construct robust, scalable applications adept at managing complex
+                data and ensuring seamless user interactions.
+            </p>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="third-Section" id="skills">
+        <span class="text-gray">what are my specialties?</span>
+        <h1>my Skills</h1>
+        <div class="third-container">
+
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="forth-Section" id="projects">
+        <span class="text-gray">what projects i have done so far?</span>
+        <h1>my Projects</h1>
+        <div class="forth-container">
+
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="fifth-Section" id="contact">
+        <span class="text-gray">contact me to know more</span>
+        <h1>Contact me</h1>
+        <div class="fifth-container">
+
+        </div>
+    </section>
+
+    <hr>
+
+</main>
+<footer class="footer-distributed">
+    <div class="footer-left">
+        <h3>Ranit<span>Manik</span></h3>
+        <p class="footer-links">
+            <a href="#home" class="link-1">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </p>
+        <p class="footer-company-name">Ranit Manik © 2023</p>
+    </div>
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Mecheda, Purba Medinipur</span> West Bengal, India</p>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+91 7477 863 497</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:ranitmanikofficial@outlook.com">ranitmanikofficial@outlook.com</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>About the company</span>
+            Studying Computer Science. Passionate Developer, Creative Designer - Crafting Digital Excellence
+        </p>
+        <div class="footer-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+        </div>
+    </div>
+</footer>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<!-- Setup and start animation! -->
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Video Editor', 'Graphic Designer', "Web Designer", "Web Developer"],
+        typeSpeed: 50,
+        loop: true,
+    });
+</script>
+</body>
+
+</html>
