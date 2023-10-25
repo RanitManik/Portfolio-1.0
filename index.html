@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- title and favicon -->
+    <!-- title, icons and favicon -->
     <title>Ranit's Developer Portfolio </title>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="Assets/Images/favicon.png" type="image/x-icon">
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -68,7 +69,7 @@
         <span class="text-gray">who am i?</span>
         <h1>About me</h1>
         <div class="second-container">
-            <img src="Assets/Images/developer_graphics.png" alt="">
+            <img src="Assets/Images/developer_preview.png" alt="">
             <p>
                 Greetings! I'm Ranit Manik, a passionate web developer with a knack for crafting dynamic and interactive
                 online experiences. Armed with a solid foundation in HTML, CSS, and JavaScript, I excel at transforming
@@ -93,7 +94,59 @@
         <span class="text-gray">what are my specialties?</span>
         <h1>my Skills</h1>
         <div class="third-container">
+            <img src="Assets/Images/developer.svg" alt="">
+            <section class="skills section">
+                <div class="skills__container bd-grid">
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html">
 
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">UX/UI</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </section>
     <hr>
@@ -103,22 +156,22 @@
         <span class="text-gray">what projects i have done so far?</span>
         <h1>my Projects</h1>
         <div class="forth-container">
-            <a href="" class="projects_img">
+            <a target="_blank" href="https://ranitmanik.github.io/YouTube-clone/" class="projects_img">
                 <img src="Assets/Images/project_1.png" alt="">
             </a>
-            <a href="" class="projects_img">
+            <a target="_blank" href="https://ranitmanik.github.io/Mom-and-Pops-Bakery/" class="projects_img">
                 <img src="Assets/Images/project_2.png" alt="">
             </a>
-            <a href="" class="projects_img">
+            <a target="_blank" href="https://ranitmanik.github.io/Planet-Earth/" class="projects_img">
                 <img src="Assets/Images/project_3.png" alt="">
             </a>
-            <a href="" class="projects_img">
+            <a target="_blank" href="https://ranitmanik.github.io/College-Website/" class="projects_img">
                 <img src="Assets/Images/project_4.png" alt="">
             </a>
-            <a href="" class="projects_img">
+            <a target="_blank" href="https://ranitmanik.github.io/iCoder-Bootsrap/" class="projects_img">
                 <img src="Assets/Images/project_5.png" alt="">
             </a>
-            <a href="" class="projects_img">
+            <a target="_blank" href="https://ranitmanik.github.io/Portfolio-1.0/" class="projects_img">
                 <img src="Assets/Images/project_6.png" alt="">
             </a>
         </div>
@@ -127,10 +180,18 @@
 
     <!-- contact -->
     <section class="fifth-Section" id="contact">
-        <span class="text-gray">contact me to know more</span>
+        <span class="text-gray">send me a message to know more</span>
         <h1>Contact me</h1>
         <div class="fifth-container">
-
+            <div class="contact-col">
+                <form id="contact-form">
+                    <input type="text" name="name" placeholder="Enter your name" required/>
+                    <input type="email" name="email" placeholder="Enter your email" required/>
+                    <input type="text" name="subject" placeholder="Enter your subject" required/>
+                    <textarea name="message" placeholder="Message" rows="10" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
         </div>
     </section>
 </main>
@@ -164,7 +225,7 @@
     </div>
     <div class="footer-right">
         <p class="footer-company-about">
-            <span>About the company</span>
+            <span>About me</span>
             Studying Computer Science. Passionate Developer, Creative Designer - Crafting Digital Excellence
         </p>
         <div class="footer-icons">
@@ -185,6 +246,30 @@
         strings: ['Graphic Designer', "Web Designer", "Web Developer"],
         typeSpeed: 50,
         loop: true,
+    });
+</script>
+<!-- contact form script -->
+<script>
+    document.getElementById('contact-form').addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        // Collect form data
+        const formData = new FormData(this);
+
+        // Send form data using AJAX
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST', 'contact.php', true);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === XMLHttpRequest.DONE) {
+                if (xhr.status === 200) {
+                    alert('Message sent successfully!');
+                    // You can update the UI as needed here
+                } else {
+                    alert('Error sending message.');
+                }
+            }
+        };
+        xhr.send(formData);
     });
 </script>
 </body>

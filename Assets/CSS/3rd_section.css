@@ -1,21 +1,82 @@
 .third-Section {
     max-width: 80vw;
     margin: auto;
-    height: 80vh;
 }
 
 .third-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    margin-top: 40px;
 }
 
 .third-Section h1 {
     font-size: 2rem;
 }
 
-.third-container img {
-    width: 650px;
+.third-Section img {
+    width: 500px;
 }
+
+.skills__container {
+    row-gap: 2rem;
+    text-align: center;
+}
+
+.skills__text {
+    margin-bottom: 2rem;
+}
+
+.skills__data {
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: rgba(160, 160, 160, 0.1);
+    font-weight: 500;
+    padding: .5rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    box-shadow: 5px 5px 0 rgba(255, 255, 255, 0.15);
+}
+
+.skills__icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: #aebbff;
+}
+
+.skills__names {
+    display: flex;
+    align-items: center;
+}
+
+.skills__bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    height: .25rem;
+    border-radius: .5rem;
+    z-index: -10;
+}
+
+.skills__html {
+    width: 95%;
+}
+
+.skills__css {
+    width: 85%;
+}
+
+.skills__js {
+    width: 65%;
+}
+
+.skills__ux {
+    width: 90%;
+}
+
 
 
