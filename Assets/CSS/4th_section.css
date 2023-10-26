@@ -17,8 +17,8 @@
 .forth-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
-    column-gap: 1rem;
+    row-gap: 3rem;
+    column-gap: 2rem;
 }
 
 /* cards */
@@ -81,7 +81,6 @@
 
 .overlay__btn:hover {
     background-color: #272768;
-    box-shadow: #000021 5px 5px 10px;
     border: none;
 }
 
@@ -89,4 +88,7 @@
     width: 100%;
 }
 
+.overlay__container a {
+    text-decoration: none;
+}
 
