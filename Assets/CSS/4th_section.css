@@ -37,7 +37,7 @@
     height: 100%;
     width: 100%;
     text-align: left;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(4px);
     border-radius: 10px;
 }
@@ -82,6 +82,7 @@
 .overlay__btn:hover {
     background-color: #272768;
     border: none;
+    /*box-shadow: 4px 4px 5px #272768;*/
 }
 
 .overlay__img {

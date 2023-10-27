@@ -29,8 +29,6 @@
 
 - HTML5
 - CSS3
-  
-
 
 # Getting Started
 
@@ -64,13 +62,11 @@ _To get started with this project, follow these steps :_
 
 <!-- CONTACT -->
 
-
 # Contact
 
 - Name - [Ranit Manik](https://github.com/RanitManik)
-- Email - ranitmanikofficial@outlook.com
-- Project Link - [https://github.com/RanitManik/YouTube-clone](https://ranitmanik.github.io/Portfolio-1.0/)
-
+- Email - [ranitmanik1@gmail.com](ranitmanik1@gmail.com)
+- Project Link - [https://github.com/RanitManik/Portfolio-1.0.git](https://ranitmanik.github.io/Portfolio-1.0/)
 
 <!-- ACKNOWLEDGMENTS -->
 

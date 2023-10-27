@@ -13,6 +13,10 @@ nav {
     backdrop-filter: blur(10px);
 }
 
+.left {
+    font-size: 1.5rem;
+}
+
 nav ul {
     display: flex;
     justify-content: center;

@@ -308,10 +308,9 @@
         <h1>Contact me</h1>
         <div class="fifth-container">
             <div class="contact-col">
-                <form id="contact-form">
+                <form id="contact-form" action="https://formspree.io/f/mknlyker" method="POST">
                     <input type="text" name="name" placeholder="Enter your name" required/>
                     <input type="email" name="email" placeholder="Enter your email" required/>
-                    <input type="text" name="subject" placeholder="Enter your subject" required/>
                     <textarea name="message" placeholder="Message" rows="10" required></textarea>
                     <button type="submit" class="submit-btn">Send Message</button>
                 </form>
@@ -370,30 +369,6 @@
         strings: ['Graphic Designer', "Web Designer", "Web Developer"],
         typeSpeed: 50,
         loop: true,
-    });
-</script>
-<!-- contact form script -->
-<script>
-    document.getElementById('contact-form').addEventListener('submit', function (event) {
-        event.preventDefault();
-
-        // Collect form data
-        const formData = new FormData(this);
-
-        // Send form data using AJAX
-        const xhr = new XMLHttpRequest();
-        xhr.open('POST', 'contact.php', true);
-        xhr.onreadystatechange = function () {
-            if (xhr.readyState === XMLHttpRequest.DONE) {
-                if (xhr.status === 200) {
-                    alert('Message sent successfully!');
-                    // You can update the UI as needed here
-                } else {
-                    alert('Error sending message.');
-                }
-            }
-        };
-        xhr.send(formData);
     });
 </script>
 </body>
