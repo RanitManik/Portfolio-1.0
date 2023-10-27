@@ -3,7 +3,6 @@
     * {
         margin: 0;
         padding: 0;
-        pointer-events: none;
     }
 
     body {
@@ -40,20 +39,16 @@
     }
 
     .left {
-        /*font-size: 1.5rem;*/
         font-size: 1.2rem;
         margin-left: -25px;
     }
 
     nav ul {
-        /*display: flex;*/
-        /*justify-content: center;*/
         display: none;
     }
 
     nav ul li {
         list-style: none;
-        /*margin: 0 23px;*/
         margin: 0;
         display: none;
     }
@@ -79,7 +74,7 @@
 
     .leftSection {
         width: 100%;
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         order: 2;
     }
 
