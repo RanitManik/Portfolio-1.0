@@ -31,6 +31,12 @@
     background-position: center;
     overflow: hidden;
     border: 1px solid rgba(204, 204, 204, 0.3);
+    transition: all ease 0.3s;
+}
+
+.card:hover {
+    border: 1px solid rgba(204, 204, 204, .5);
+    transform: translateY(-5px);
 }
 
 .overlay {
@@ -38,8 +44,12 @@
     width: 100%;
     text-align: left;
     background: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(4px);
     border-radius: 10px;
+    transition: all ease 0.3s;
+}
+
+.overlay:hover {
+    background: rgba(255, 255, 255, 0.5);
 }
 
 .overlay h4 {
@@ -82,7 +92,6 @@
 .overlay__btn:hover {
     background-color: #272768;
     border: none;
-    /*box-shadow: 4px 4px 5px #272768;*/
 }
 
 .overlay__img {

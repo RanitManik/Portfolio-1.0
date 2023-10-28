@@ -40,7 +40,7 @@
 
     .left {
         font-size: 1.2rem;
-        margin-left: -25px;
+        margin-left: -22px;
     }
 
     nav ul {
@@ -69,12 +69,12 @@
 
     .first-Section > div {
         width: 100%;
-        padding-left: 50px;
+        padding-left: 25px;
     }
 
     .leftSection {
         width: 100%;
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         order: 2;
     }
 
@@ -107,7 +107,7 @@
 
     .rightSection img {
         width: 70%;
-        margin: 0 0 25px;
+        margin: 0 0 25px 25px;
         border-radius: 50%;
     }
 
@@ -165,7 +165,6 @@
 
     .third-Section img {
         display: none;
-        /*width: 500px;*/
     }
 
     .skills__container {
@@ -325,17 +324,69 @@
     /* 5th Section */
     .fifth-Section {
         max-width: 80vw;
+        margin: auto;
+    }
+
+    .fifth-Section {
+        margin-top: 30px;
+    }
+
+    .fifth-Section h1 {
+        font-size: 2rem;
+    }
+
+    .services {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+        column-gap: 1rem;
+    }
+
+    .service_container {
+        height: 100%;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.4);
+        border: 1px solid rgba(204, 204, 204, 0.3);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .services_icon {
+        padding-left: 25px;
+        padding-top: 25px;
+        padding-bottom: 10px;
+        font-size: 40px;
+        color: #000021;
+    }
+
+    .service_container h4 {
+        padding-left: 25px;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: #000021;
+    }
+
+    .service_container p {
+        padding: 10px 20px 25px 25px;
+        color: #000021;
+        line-height: 20px;
+    }
+
+    /* 6th Section */
+    .sixth-Section {
+        max-width: 80vw;
         margin: auto auto 40px;
     }
 
-    .fifth-container {
+    .sixth-container {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 30px;
     }
 
-    .fifth-Section h1 {
+    .sixth-Section h1 {
         font-size: 2rem;
     }
 
