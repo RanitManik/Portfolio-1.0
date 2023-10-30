@@ -210,22 +210,6 @@
         z-index: -10;
     }
 
-    .skills__html {
-        width: 95%;
-    }
-
-    .skills__css {
-        width: 85%;
-    }
-
-    .skills__js {
-        width: 65%;
-    }
-
-    .skills__ux {
-        width: 90%;
-    }
-
     /* 4th Section */
     .forth-Section {
         max-width: 80vw;
