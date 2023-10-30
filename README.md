@@ -69,7 +69,7 @@ _To get started with this project, follow these steps :_
 - Project Link - [https://github.com/RanitManik/Portfolio-1.0.git](https://ranitmanik.github.io/Portfolio-1.0/)
 
 <!-- ACKNOWLEDGMENTS -->
-
+---
 
 <p align="center"> if you like my work, maybe consider buying me a coffee/tea <img src="https://media.giphy.com/media/lRSeZ2ddNwhZ5AgIvk/giphy.gif" width="25">
 
