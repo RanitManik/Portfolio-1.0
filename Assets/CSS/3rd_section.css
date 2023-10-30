@@ -71,12 +71,17 @@
 }
 
 .skills__js {
-    width: 65%;
+    width: 35%;
+}
+
+.skills__bootstrap {
+    width: 55%;
 }
 
 .skills__ux {
     width: 90%;
 }
+
 
 
 
