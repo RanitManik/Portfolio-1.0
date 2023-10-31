@@ -24,40 +24,40 @@
 
     /* header */
     nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 60px;
+        display: none;
+    }
+
+    .top_nav {
+        display: block;
+        overflow: hidden;
         background-color: rgba(10, 19, 48, 0.7);
+        border-bottom: solid 1px rgba(157, 157, 157, 0.2);
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
-        border-bottom: solid 1px rgba(157, 157, 157, 0.2);
         z-index: 99;
         backdrop-filter: blur(10px);
     }
 
-    .left {
-        font-size: 1.2rem;
-        margin-left: -22px;
-    }
-
-    nav ul {
+    .top_nav #myLinks {
         display: none;
     }
 
-    nav ul li {
-        list-style: none;
-        margin: 0;
-        display: none;
-    }
-
-    nav ul li a {
+    .top_nav a {
+        color: white;
+        padding: 16px 25px;
         text-decoration: none;
-        color: #BFC8D5;
-        transition: color 0.15s ease;
-        display: none;
+        font-size: 18px;
+        display: block;
+    }
+
+    .top_nav a.icon {
+        background: transparent;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
     }
 
     /* 1st Section */
