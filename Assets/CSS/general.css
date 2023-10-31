@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    scroll-padding: 6rem;
 }
 
 body {
@@ -19,4 +20,9 @@ p {
 main hr {
     margin: 40px 84px;
     border-color: rgb(157, 157, 157);
+}
+
+*::selection {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #000000;
 }
