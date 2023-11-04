@@ -18,7 +18,7 @@ The section should scroll smoothly without any lag or stuttering.
 
 ### Environment
 - OS: [Android 11]
-- Browser: [Chrome v119.0.6045.66]
+- Browser: [ALL]
 - Screen Size: [mobile screens]
 
 ### Additional context
