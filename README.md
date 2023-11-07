@@ -9,7 +9,7 @@
 <a href="https://ranitmanik.github.io/Portfolio-1.0/">Visit the Website »</a>
 <br >
   <br>
-<a href="https://ranitmanik.github.io/Portfolio-1.0/">View Live Demo</a>
+<a href="https://ranitmanik.great-site.net/">View Live Demo</a>
 ·
 <a href=".github/bug-report---.md">Report Bug</a>
 ·
