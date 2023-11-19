@@ -69,13 +69,14 @@
 
     .first-Section > div {
         width: 100%;
-        padding-left: 25px;
+        padding-left: 0px;
     }
 
     .leftSection {
         width: 100%;
-        font-size: 1.7rem;
+        font-size: 7.5vw;
         order: 2;
+        margin-left: 30px;
     }
 
     .leftSection .buttons {
@@ -88,7 +89,7 @@
         color: white;
         border: 1px solid rgba(157, 157, 157, 0.4);
         border-radius: 3px;
-        font-size: 18px;
+        font-size: 4.5vw;
         cursor: pointer;
         transition: background-color 0.3s ease;
     }
@@ -107,7 +108,7 @@
 
     .rightSection img {
         width: 70%;
-        margin: 0 0 25px 25px;
+        margin: 0 0 25px 50px;
         border-radius: 50%;
     }
 
@@ -163,7 +164,7 @@
         font-size: 2rem;
     }
 
-    .third-Section img {
+    .skills_img img {
         display: none;
     }
 
@@ -208,6 +209,11 @@
         height: .25rem;
         border-radius: .5rem;
         z-index: -10;
+    }
+
+    .skills__names img {
+        width: 2rem;
+        margin-right: 1rem;
     }
 
     /* 4th Section */
@@ -294,7 +300,6 @@
     .overlay__btn:hover {
         background-color: #272768;
         border: none;
-        /*box-shadow: 4px 4px 5px #272768;*/
     }
 
     .overlay__img {
