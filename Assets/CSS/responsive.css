@@ -129,6 +129,7 @@
         max-width: 80vw;
         margin: auto;
         height: auto;
+        padding-bottom: 0px;
     }
 
     .second-container {
@@ -164,7 +165,7 @@
         font-size: 2rem;
     }
 
-    .third-Section img {
+    .third-Section video {
         display: none;
     }
 

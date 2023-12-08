@@ -7,15 +7,17 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .third-Section h1 {
     font-size: 2rem;
 }
 
-.third-Section img {
+.third-Section video {
     width: 500px;
+    mix-blend-mode: screen;
+    /*order: 2;*/
 }
 
 .skills__container {
