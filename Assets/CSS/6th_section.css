@@ -53,8 +53,8 @@
 
 .contact-col input:focus,
 .contact-col textarea:focus {
-    background-color: #E8F0FE;
-    color: #000000;
+    background-color: #33334D;
+    color: white;
 }
 
 .submit-btn {
