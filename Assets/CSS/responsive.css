@@ -406,23 +406,14 @@
 
     .contact-col input,
     .contact-col textarea {
-        background-color: transparent;
-        color: #d8d8d8;
         width: 100%;
         border-radius: 5px;
         padding: 15px;
         margin-bottom: 17px;
         outline: none;
-        border: 1px solid rgba(204, 204, 204, 0.3);
         box-sizing: border-box;
     }
-
-    .contact-col input:focus,
-    .contact-col textarea:focus {
-        background-color: #E8F0FE;
-        color: #000000;
-    }
-
+    
     .submit-btn {
         width: 100%;
         padding: 12px;
