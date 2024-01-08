@@ -11,10 +11,9 @@
   <br>
 <a href="https://ranitmanik.great-site.net/">View Live Demo</a>
 ·
-<a href=".github/bug-report---.md">Report Bug</a>
+<a href=".github/ISSUE_TEMPLATE/bug_report.md">Report Bug</a>
 ·
-<a href=".github/feature-request---.md">Request Feature</a>
-  </p>
+<a href=".github/ISSUE_TEMPLATE/feature_request.md">Request Feature</a>
 </div>
 <br>
 
