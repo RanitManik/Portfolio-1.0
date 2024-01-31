@@ -9,6 +9,8 @@ body {
     background-color: rgb(0, 0, 33);
     color: white;
     font-family: 'Poppins', sans-serif;
+    max-width: 120rem;
+    margin: auto;
 }
 
 p {
