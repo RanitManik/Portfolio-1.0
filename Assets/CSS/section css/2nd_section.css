@@ -1,11 +1,11 @@
 .second-Section {
     max-width: 80vw;
     margin: auto;
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem  /* 40/16 */;
 }
 
 .second-container {
-    margin-top: 30px;
+    margin-top: 1.875rem  /* 30/16 */;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,5 +16,5 @@
 }
 
 .second-container img {
-    width: 650px;
+    width: 40.625rem  /* 650/16 */;
 }

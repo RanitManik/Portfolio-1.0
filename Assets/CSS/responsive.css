@@ -1,4 +1,4 @@
-@media (max-width: 576px) {
+@media (max-width: 36rem  /* 576/16 */) {
     /* general */
     * {
         margin: 0;
@@ -14,11 +14,11 @@
     p {
         font-family: 'Futura PT', sans-serif;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 0.9375rem  /* 15/16 */;
     }
 
     main hr {
-        margin: 30px 25px;
+        margin: 1.875rem  /* 30/16 */ 1.5625rem  /* 25/16 */;
         border-color: rgb(157, 157, 157);
     }
 
@@ -31,13 +31,13 @@
         display: block;
         overflow: hidden;
         background-color: rgba(10, 19, 48, 0.7);
-        border-bottom: solid 1px rgba(157, 157, 157, 0.2);
+        border-bottom: solid 0.0625rem  /* 1/16 */ rgba(157, 157, 157, 0.2);
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
         z-index: 99;
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(0.625rem  /* 10/16 */);
     }
 
     .top_nav #myLinks {
@@ -46,9 +46,9 @@
 
     .top_nav a {
         color: white;
-        padding: 16px 25px;
+        padding: 1rem  /* 16/16 */ 1.5625rem  /* 25/16 */;
         text-decoration: none;
-        font-size: 18px;
+        font-size: 1.125rem  /* 18/16 */;
         display: block;
     }
 
@@ -64,31 +64,31 @@
     .first-Section {
         display: flex;
         flex-direction: column;
-        margin: 90px 25px 0 25px;
+        margin: 5.625rem  /* 90/16 */ 1.5625rem  /* 25/16 */ 0 1.5625rem  /* 25/16 */;
     }
 
     .first-Section > div {
         width: 100%;
-        padding-left: 0px;
+        padding-left: 0rem  /* 0/16 */;
     }
 
     .leftSection {
         width: 100%;
         font-size: 7.5vw;
         order: 2;
-        margin-left: 30px;
+        margin-left: 1.875rem  /* 30/16 */;
     }
 
     .leftSection .buttons {
-        padding: 10px 0;
+        padding: 0.625rem  /* 10/16 */ 0;
     }
 
     .leftSection .btn {
-        padding: 8px;
+        padding: 0.5rem  /* 8/16 */;
         background-color: #1e2167;
         color: white;
-        border: 1px solid rgba(157, 157, 157, 0.4);
-        border-radius: 3px;
+        border: 0.0625rem  /* 1/16 */ solid rgba(157, 157, 157, 0.4);
+        border-radius: 0.1875rem  /* 3/16 */;
         font-size: 4.5vw;
         cursor: pointer;
         transition: background-color 0.3s ease;
@@ -103,12 +103,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: -50px;
+        margin-left: -3.125rem  /* -50/16 */;
     }
 
     .rightSection img {
         width: 70%;
-        margin: 0 0 25px 50px;
+        margin: 0 0 1.5625rem  /* 25/16 */ 3.125rem  /* 50/16 */;
         border-radius: 50%;
     }
 
@@ -129,11 +129,11 @@
         max-width: 80vw;
         margin: auto;
         height: auto;
-        padding-bottom: 0px;
+        padding-bottom: 0rem  /* 0/16 */;
     }
 
     .second-container {
-        margin-top: 30px;
+        margin-top: 1.875rem  /* 30/16 */;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -158,7 +158,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-top: 30px;
+        margin-top: 1.875rem  /* 30/16 */;
     }
 
     .third-Section h1 {
@@ -188,7 +188,7 @@
         padding: .5rem 1rem;
         margin-bottom: 2rem;
         border-radius: .5rem;
-        box-shadow: 5px 5px 0 rgba(255, 255, 255, 0.15);
+        box-shadow: 0.3125rem  /* 5/16 */ 0.3125rem  /* 5/16 */ 0 rgba(255, 255, 255, 0.15);
     }
 
     .skills__icon {
@@ -224,7 +224,7 @@
     }
 
     .forth-container {
-        margin-top: 30px;
+        margin-top: 1.875rem  /* 30/16 */;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -244,11 +244,11 @@
     .card {
         height: 100%;
         width: 100%;
-        border-radius: 10px;
+        border-radius: 0.625rem  /* 10/16 */;
         background-size: cover;
         background-position: center;
         overflow: hidden;
-        border: 1px solid rgba(204, 204, 204, 0.3);
+        border: 0.0625rem  /* 1/16 */ solid rgba(204, 204, 204, 0.3);
     }
 
     .overlay {
@@ -256,24 +256,24 @@
         width: 100%;
         text-align: left;
         background: rgba(255, 255, 255, 0.4);
-        backdrop-filter: blur(4px);
-        border-radius: 10px;
+        backdrop-filter: blur(0.25rem  /* 4/16 */);
+        border-radius: 0.625rem  /* 10/16 */;
     }
 
     .overlay h4 {
-        margin-left: 25px;
-        padding-top: 10px;
-        font-size: 20px;
+        margin-left: 1.5625rem  /* 25/16 */;
+        padding-top: 0.625rem  /* 10/16 */;
+        font-size: 1.25rem  /* 20/16 */;
         text-transform: uppercase;
         font-weight: 800;
         color: #000021;
     }
 
     .overlay p {
-        padding: 10px 25px 20px 25px;
+        padding: 0.625rem  /* 10/16 */ 1.5625rem  /* 25/16 */ 1.25rem  /* 20/16 */ 1.5625rem  /* 25/16 */;
         color: #000021;
-        line-height: 20px;
-        font-size: 15px;
+        line-height: 1.25rem  /* 20/16 */;
+        font-size: 0.9375rem  /* 15/16 */;
     }
 
     .fa-brands {
@@ -285,16 +285,16 @@
     }
 
     .overlay__btn {
-        padding: 10px 0 10px 0;
-        margin-bottom: 15px;
+        padding: 0.625rem  /* 10/16 */ 0 0.625rem  /* 10/16 */ 0;
+        margin-bottom: 0.9375rem  /* 15/16 */;
         background: #10102E;
         width: 83%;
-        border-radius: 50px;
+        border-radius: 3.125rem  /* 50/16 */;
         cursor: pointer;
         color: #e1e1e1;
         font-weight: 600;
         border: none;
-        margin-left: 25px;
+        margin-left: 1.5625rem  /* 25/16 */;
         transition: all ease 0.3s;
     }
 
@@ -318,7 +318,7 @@
     }
 
     .fifth-Section {
-        margin-top: 30px;
+        margin-top: 1.875rem  /* 30/16 */;
     }
 
     .fifth-Section h1 {
@@ -336,44 +336,44 @@
         height: 100%;
         width: 100%;
         background: rgba(255, 255, 255, 0.4);
-        border: 1px solid rgba(204, 204, 204, 0.3);
-        border-radius: 10px;
+        border: 0.0625rem  /* 1/16 */ solid rgba(204, 204, 204, 0.3);
+        border-radius: 0.625rem  /* 10/16 */;
         overflow: hidden;
     }
 
     .services_icon {
-        padding-left: 25px;
-        padding-top: 25px;
-        padding-bottom: 10px;
-        font-size: 40px;
+        padding-left: 1.5625rem  /* 25/16 */;
+        padding-top: 1.5625rem  /* 25/16 */;
+        padding-bottom: 0.625rem  /* 10/16 */;
+        font-size: 2.5rem  /* 40/16 */;
         color: #000021;
     }
 
     .service_container h4 {
-        padding-left: 25px;
-        font-size: 25px;
+        padding-left: 1.5625rem  /* 25/16 */;
+        font-size: 1.5625rem  /* 25/16 */;
         text-transform: uppercase;
         font-weight: 800;
         color: #000021;
     }
 
     .service_container p {
-        padding: 10px 20px 25px 25px;
+        padding: 0.625rem  /* 10/16 */ 1.25rem  /* 20/16 */ 1.5625rem  /* 25/16 */ 1.5625rem  /* 25/16 */;
         color: #000021;
-        line-height: 20px;
+        line-height: 1.25rem  /* 20/16 */;
     }
 
     /* 6th Section */
     .sixth-Section {
         max-width: 80vw;
-        margin: auto auto 40px;
+        margin: auto auto 2.5rem  /* 40/16 */;
     }
 
     .sixth-container {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 30px;
+        margin-top: 1.875rem  /* 30/16 */;
     }
 
     .sixth-Section h1 {
@@ -382,13 +382,13 @@
 
     .contact-col {
         flex-basis: 95%;
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem  /* 30/16 */;
     }
 
     .contact-col div {
         display: flex;
         align-items: center;
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem  /* 40/16 */;
     }
 
     .contact-col div p {
@@ -397,8 +397,8 @@
     }
 
     .contact-col div h5 {
-        font-size: 20px;
-        margin-bottom: 5px;
+        font-size: 1.25rem  /* 20/16 */;
+        margin-bottom: 0.3125rem  /* 5/16 */;
         color: #555;
         font-weight: 400;
         font-family: Arial, Helvetica, sans-serif;
@@ -407,27 +407,27 @@
     .contact-col input,
     .contact-col textarea {
         width: 100%;
-        border-radius: 5px;
-        padding: 15px;
-        margin-bottom: 17px;
+        border-radius: 0.3125rem  /* 5/16 */;
+        padding: 0.9375rem  /* 15/16 */;
+        margin-bottom: 1.0625rem  /* 17/16 */;
         outline: none;
         box-sizing: border-box;
     }
     
     .submit-btn {
         width: 100%;
-        padding: 12px;
+        padding: 0.75rem  /* 12/16 */;
         background-color: #1e2167;
         color: white;
-        border: 1px solid rgba(157, 157, 157, 0.4);
-        border-radius: 6px;
-        font-size: 20px;
+        border: 0.0625rem  /* 1/16 */ solid rgba(157, 157, 157, 0.4);
+        border-radius: 0.375rem  /* 6/16 */;
+        font-size: 1.25rem  /* 20/16 */;
         cursor: pointer;
         transition: background-color 0.3s ease;
     }
 
     .submit-btn:hover {
         background-color: #5053ab;
-        border: 1px solid white;
+        border: 0.0625rem  /* 1/16 */ solid white;
     }
 }

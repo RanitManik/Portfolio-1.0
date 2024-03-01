@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 1.25rem  /* 20/16 */;
 }
 
 .third-Section h1 {
@@ -15,7 +15,7 @@
 }
 
 .third-Section video {
-    width: 500px;
+    width: 31.25rem  /* 500/16 */;
     mix-blend-mode: screen;
     /*order: 2;*/
 }
@@ -40,7 +40,7 @@
     padding: .5rem 1rem;
     margin-bottom: 2rem;
     border-radius: .5rem;
-    box-shadow: 5px 5px 0 rgba(255, 255, 255, 0.15);
+    box-shadow: 0.3125rem  /* 5/16 */ 0.3125rem  /* 5/16 */ 0 rgba(255, 255, 255, 0.15);
 }
 
 .skills__icon {

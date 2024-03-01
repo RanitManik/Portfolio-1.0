@@ -4,7 +4,7 @@
 }
 
 .fifth-Section {
-    margin-top: 30px;
+    margin-top: 1.875rem  /* 30/16 */;
 }
 
 .fifth-Section h1 {
@@ -22,35 +22,35 @@
     height: 100%;
     width: 100%;
     background: rgba(255, 255, 255, 0.4);
-    border: 1px solid rgba(204, 204, 204, 0.3);
-    border-radius: 10px;
+    border: 0.0625rem  /* 1/16 */ solid rgba(204, 204, 204, 0.3);
+    border-radius: 0.625rem  /* 10/16 */;
     overflow: hidden;
     transition: all ease 0.3s;
 }
 .service_container:hover {
     background: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgba(204, 204, 204, 1);
-    transform: translateY(-5px);
+    border: 0.0625rem  /* 1/16 */ solid rgba(204, 204, 204, 1);
+    transform: translateY(-0.3125rem  /* -5/16 */);
 }
 
 .services_icon {
-    padding-left: 25px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-size: 70px;
+    padding-left: 1.5625rem  /* 25/16 */;
+    padding-top: 1.5625rem  /* 25/16 */;
+    padding-bottom: 1.5625rem  /* 25/16 */;
+    font-size: 4.375rem  /* 70/16 */;
     color: #000021;
 }
 
 .service_container h4 {
-    padding-left: 25px;
-    font-size: 25px;
+    padding-left: 1.5625rem  /* 25/16 */;
+    font-size: 1.5625rem  /* 25/16 */;
     text-transform: uppercase;
     font-weight: 800;
     color: #000021;
 }
 
 .service_container p {
-    padding: 10px 25px 25px 25px;
+    padding: 0.625rem  /* 10/16 */ 1.5625rem  /* 25/16 */ 1.5625rem  /* 25/16 */ 1.5625rem  /* 25/16 */;
     color: #000021;
-    line-height: 30px;
+    line-height: 1.875rem  /* 30/16 */;
 }

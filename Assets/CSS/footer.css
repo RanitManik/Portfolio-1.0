@@ -6,12 +6,12 @@ footer {
 
 .footer-distributed {
     background: #000d37;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 0.0625rem  /* 1/16 */ 0.0625rem  /* 1/16 */ 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    font: bold 16px sans-serif;
-    padding: 55px 50px;
+    font: bold 1rem  /* 16/16 */ sans-serif;
+    padding: 3.4375rem  /* 55/16 */ 3.125rem  /* 50/16 */;
 }
 
 .footer-distributed .footer-left,
@@ -31,7 +31,7 @@ footer {
 
 .footer-distributed h3 {
     color: #ffffff;
-    font: normal 36px 'Open Sans', cursive;
+    font: normal 2.25rem  /* 36/16 */ 'Open Sans', cursive;
     margin: 0;
 }
 
@@ -43,7 +43,7 @@ footer {
 
 .footer-distributed .footer-links {
     color: #ffffff;
-    margin: 20px 0 12px;
+    margin: 1.25rem  /* 20/16 */ 0 0.75rem  /* 12/16 */;
     padding: 0;
 }
 
@@ -57,7 +57,7 @@ footer {
 
 .footer-distributed .footer-company-name {
     color: #BFC8D5;
-    font-size: 14px;
+    font-size: 0.875rem  /* 14/16 */;
     font-weight: normal;
     margin: 0;
 }
@@ -71,19 +71,19 @@ footer {
 .footer-distributed .footer-center i {
     background-color: #BFC8D5;
     color: #000d37;
-    font-size: 25px;
-    width: 38px;
-    height: 38px;
+    font-size: 1.5625rem  /* 25/16 */;
+    width: 2.375rem  /* 38/16 */;
+    height: 2.375rem  /* 38/16 */;
     border-radius: 50%;
     text-align: center;
-    line-height: 42px;
-    margin: 10px 15px;
+    line-height: 2.625rem  /* 42/16 */;
+    margin: 0.625rem  /* 10/16 */ 0.9375rem  /* 15/16 */;
     vertical-align: middle;
 }
 
 .footer-distributed .footer-center i.fa {
-    font-size: 17px;
-    line-height: 38px;
+    font-size: 1.0625rem  /* 17/16 */;
+    line-height: 2.375rem  /* 38/16 */;
 }
 
 .footer-distributed .footer-center p {
@@ -97,7 +97,7 @@ footer {
 .footer-distributed .footer-center p span {
     display: block;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.875rem  /* 14/16 */;
     line-height: 2;
 }
 
@@ -109,11 +109,11 @@ footer {
 .footer-distributed .footer-links a:before {
     content: "|";
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1.25rem  /* 20/16 */;
     left: 0;
     color: #fff;
     display: inline-block;
-    padding-right: 5px;
+    padding-right: 0.3125rem  /* 5/16 */;
 }
 
 .footer-distributed .footer-links .link-1:before {
@@ -127,9 +127,9 @@ footer {
 }
 
 .footer-distributed .footer-company-about {
-    line-height: 20px;
+    line-height: 1.25rem  /* 20/16 */;
     color: #92999f;
-    font-size: 15px;
+    font-size: 0.9375rem  /* 15/16 */;
     font-weight: normal;
     margin: 0;
 }
@@ -137,29 +137,29 @@ footer {
 .footer-distributed .footer-company-about span {
     display: block;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 1.25rem  /* 20/16 */;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem  /* 20/16 */;
 }
 
 .footer-distributed .footer-icons {
-    margin-top: 25px;
+    margin-top: 1.5625rem  /* 25/16 */;
 }
 
 .footer-distributed .footer-icons a {
     display: inline-block;
-    width: 35px;
-    height: 35px;
+    width: 2.1875rem  /* 35/16 */;
+    height: 2.1875rem  /* 35/16 */;
     cursor: pointer;
     background-color: #BFC8D5;
-    border-radius: 2px;
-    font-size: 20px;
+    border-radius: 0.125rem  /* 2/16 */;
+    font-size: 1.25rem  /* 20/16 */;
     color: #000021;
     text-align: center;
-    line-height: 35px;
+    line-height: 2.1875rem  /* 35/16 */;
 
-    margin-right: 3px;
-    margin-bottom: 5px;
+    margin-right: 0.1875rem  /* 3/16 */;
+    margin-bottom: 0.3125rem  /* 5/16 */;
 
     transition: background-color 0.3s, color 0.3s;
 }
@@ -170,10 +170,10 @@ footer {
 }
 
 
-@media (max-width: 880px) {
+@media (max-width: 55rem  /* 880/16 */) {
 
     .footer-distributed {
-        font: bold 14px sans-serif;
+        font: bold 0.875rem  /* 14/16 */ sans-serif;
     }
 
     .footer-distributed .footer-left,
@@ -181,7 +181,7 @@ footer {
     .footer-distributed .footer-right {
         display: block;
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem  /* 40/16 */;
     }
 
     .footer-distributed .footer-center i {
