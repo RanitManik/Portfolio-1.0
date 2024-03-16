@@ -4,16 +4,14 @@
   <a href="https://github.com/YourUsername/YouTube-Clone">
     <img src="https://github.com/RanitManik/Portfolio-1.0/assets/138437760/14ab5681-8b0f-40a5-bc46-71f6af473048" alt="Logo" height="150">
   </a>
-<h1> Portfolio-1.0
-</h1>
-<a href="https://ranitmanik.github.io/Portfolio-1.0/">Visit the Website »</a>
-<br >
-  <br>
-<a href="https://ranitmanik.great-site.net/">View Live Demo</a>
+<h1> Portfolio-1.0 </h1>
+<h4>
+  <a href="https://ranitmanik.github.io/Portfolio-1.0/">View Live Demo</a>
 ·
 <a href=".github/ISSUE_TEMPLATE/bug_report.md">Report Bug</a>
 ·
 <a href=".github/ISSUE_TEMPLATE/feature_request.md">Request Feature</a>
+</h4>
 </div>
 <br>
 
